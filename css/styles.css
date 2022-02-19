@@ -1,56 +1,102 @@
 body {
+    box-sizing: border-box;
     font-size: 16px;
     color: #fff;
     background-color: #61122f;
 }
-#header-nav {
+header {
     background-color: #f6b319;
 }
-#logo {
-    background-color: white;
-    margin: 0px 15px 0px 0px;
-    border-radius: 100%;
-    height: 130px;
-    width: 130px;
+navbar-brand{
+    float: left;
 }
-.navbar-brand{
-    /* restuarant padding */
-    padding-top:;
-}
-.navbar-brand>a>h1{
-    /* restuarant name */
-    text-decoration:none;
-    font-family: serif;
+body>header>nav>div>a>span {
+    font-family: Lora-Regular;
     color: #557c3e;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    line-height: 0.75;
 }
-.navbar-brand a{
+body>header>nav>div>div>{
+    margin-left: 30px;
+}
+.nav-link{
+    color: #61122f;
+    text-align: center;
+    float: left;
+}
+#wd1{
+    color: #557c3e;
+}
+#callbtn {
+    margin: auto;
+    width: 100%;
+    /* height: 58.281px; */
+    background-color:#f6b319;
+}
+#tel {
+    font-size: 1.5em;
     text-decoration: none;
+    color: #61122f;
 }
-.navbar-brand p{ 
-    /* certification */
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
+#wd{
     font-size: 0.7em;
-    margin-top: 10px;
-    margin-bottom: 0px;
 }
-.navbar-brand p span{
-    /* certification words */
+#menu-tile{
+    background: url(../images/menu-tile.jpg) no-repeat;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    width: 360px;
+}
+#menu-tile span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    opacity: .8;
+}
+#specials-tile{
+    background: url(../images/specials-tile.jpg) no-repeat;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    width: 360px;
+}
+#specials-tile span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    opacity: .8;
+}
+#map-tile{
+    position: relative;
+}
+#map-tile span{
+    position: absolute;
+    bottom: 6px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    opacity: .8;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+}
+#smallg{
+    color:#557c3e;
     font-size: 0.8em;
-    height: auto;
-    vertical-align: middle;
-    font-family: sans-serif;
+    /* text-align: center; */
 }
-.navbar-brand p img{
-    /* certification image */
-    width: 5%;
-    height: auto;
+.footerbig{
+    font-size: 1.1em;
+}
+.fst-italic{
+    font-size: 0.9em;
 }
