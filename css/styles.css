@@ -46,16 +46,6 @@ body>header>nav>div>div>{
     height: 250px;
     width: 360px;
 }
-#menu-tile span{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    color: #fff;
-    opacity: .8;
-}
 #specials-tile{
     background: url(../images/specials-tile.jpg) no-repeat;
     background-position: center;
@@ -63,7 +53,13 @@ body>header>nav>div>div>{
     height: 250px;
     width: 360px;
 }
-#specials-tile span{
+#map-tile{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -73,18 +69,12 @@ body>header>nav>div>div>{
     color: #fff;
     opacity: .8;
 }
-#map-tile{
-    position: relative;
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
-#map-tile span{
-    position: absolute;
-    bottom: 6px;
-    right: 0px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    color: #fff;
-    opacity: .8;
+.nav-item a:hover {
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px 1px #cccccc;  
 }
 footer{
     background-color: rgb(32, 32, 32);
